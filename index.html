@@ -68,9 +68,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
                 </li>
@@ -92,7 +92,7 @@
                     <a href="mailto:neelbhave91@gmail.com">avp2131@columbia.edu</a>
                 </div>
                 <p class="lead mb-5">A Data Scientist by Qualification, a Problem Solver by Mind and a Tech Enthusiast
-                    by Heart</p>
+                    by Heart. Also, a die hard FC Barcelona fan.</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/akshaypakhle10/" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
@@ -359,99 +359,105 @@
             <div class="my-auto">
                 <h2 class="mb-5">Projects</h2>
 
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Brickdoor
-                        </h3>
-                        <div class="subheading mb-3">Northeastern University</div>
-                        <div class="subheading mb-3"></div>
-                        <p>
-                        <ul>
-                            <li>
-                                Developed a <a target="_blank" href="https://brickdoor.herokuapp.com/">web
-                                    application</a> that allows users to post their work and interview experience for
-                                various companies they have worked for and allows companies
-                                to view the reviews posted for them by the users.
-                            </li>
-                            <li>
-                                Developed for the course CS5200 - Database Management Systems. Used a wide range of
-                                Database concepts like Association, Mapping, Enumerations and various relationships
-                                covered in the course to develope the project.
-                            </li>
-                            <li>
-                                Used JPA, Springboot, MySQL, Jquery and Bootstrap to develope the project. Used AWS RDS
-                                and Heroku to host the project.
-                            </li>
 
-                        </ul>
-                        <p><a href="https://github.com/neelgeek/Brickdoor/" target="_blank">Check the Project on
-                                github</a></p>
-                        <p>
-                        </p>
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Januray 2020-April 2020</span>
-                    </div>
-                </div>
 
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Awesome Wallpapers Telegram Bot
+                        <h3 class="mb-0">Covid-19 Country-Wise Modeling and Forecasting
                         </h3>
-                        <div class="subheading mb-3"></div>
+                        <div class="subheading mb-3">DSI, Columbia University</div>
                         <p>
                         <ul>
                             <li>
-                                Developed a Telegram Bot that posts HD Wallpapers from Reddit to a <a
-                                    href="https://bit.ly/wallpDaily" target="_blank">Telegram Channel</a> daily.
+                                This was our attempt at DSI's Covid-19 forecasting challenge. We set up an automated
+                                web-scraping system and pre-processing pipeline to scrape and gather
+                                daily updated COVID-19 data from various sources(JHU, WHO, OWID, etc).
                             </li>
                             <li>
-                                Used <a href="https://www.npmjs.com/package/snoowrap" target="_blank">Snoowrap.js</a> to
-                                access Reddit API and <a href="https://www.npmjs.com/package/telegraf"
-                                    target="_blank">Telegraf.js</a> to access Telegram Bot
-                                API.
+                                Fit models based on country-wise spread of the disease, some of which were logistic
+                                curves, XGBoost, LSTM’s, piecewise linear curves, to effectively model and forecast the
+                                number of cases, deaths and recoveries for May 1, 2020.
                             </li>
-                            <li>
-                                This is my hobby project, the motivation for this project was my requirement of having a
-                                automated source of HD wallpapers on my phone regularly. The channel current has about
-                                <b>280+ members</b>.
-                            </li>
-                            <li>
-                                I plan to upgrade this project to a open-source general Reddit bot, that will allow
-                                people to subscribe to the Subreddits of their choice and get regular updates from them
-                                on their Telegram messenger.
-                            </li>
+
                         </ul>
-                        <p><a href="https://github.com/neelgeek/AWPbot" target="_blank">Check the Project on github</a>
+                        <p><a href="https://github.com/Akshaypakhle10/ML/blob/master/COVID_19.ipynb"
+                                target="_blank">Check the Colab File on Github</a>
                         </p>
                         <p>
                         </p>
                         </p>
                     </div>
                     <div class="resume-date text-md-right">
-                        <span class="text-primary">December 2019-Current</span>
+                        <span class="text-primary">April 2020-May 2020</span>
                     </div>
                 </div>
 
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Solving Lunar Lander using Deep Reinforcement Learning</h3>
-                        <div class="subheading mb-3">Northeastern University</div>
+                        <h3 class="mb-0">SincNet based Speaker Recognition
+                        </h3>
+                        <div class="subheading mb-3">Final project for COMSE6998 - Fundamentals of Speech Recognition,
+                            Columbia University</div>
+                        <div class="subheading mb-3"></div>
                         <p>
                         <ul>
-                            <li>Implemented Q-learning and Deep Q-learning to solve the Lunar lander environment by
-                                OpenAI Gym, i.e. training a spaceship to land on a landing pad without crashing, using
-                                Keras and PyTorch.</li>
-                            <li>Aimed at studying the benefits and challenges of using various Deep Q-learning
-                                algorithms in environments with continuous state representations and producing a
-                                comparative study for the same.</li>
+                            <li>
+                                Python Implementation of the paper - <a href="http://arxiv.org/abs/1808.00158">
+                                    "Speaker Recognition from raw waveform with SincNet"
+                                </a>, by Mirco Ravanelli, Yoshua Bengio.
+                            </li>
+                            <li>
+                                I Used the VoxCeleb2 recipe(7363 Speakers) in Kaldi to generate Sinc-convolution based
+                                Features, which were then fed through a CNN+DNN ensemble architecture, and finally
+                                classified with a SoftMax Layer.
+
+                            </li>
+                            <li>
+                                The model achieved a WER of 5.9%, which is pretty close
+                                to the best WER yet of 5.5% in these tasks.
+                            </li>
+
+
                         </ul>
-                        <p><a href="https://github.com/neelgeek/LunarLander" target="_blank">Check the Project on
-                                github</a></p>
-                        <p></p><a
-                            href="https://www.linkedin.com/pulse/solving-lunar-lander-using-deep-reinforcement-learning-neel-bhave/"
-                            target="_blank">Check Project Article</a></p>
+                        <p><a href="https://github.com/Akshaypakhle10/ML/blob/master/Sincnet.ipynb"
+                                target="_blank">Check the
+                                Project Colab File on
+                                Github</a></p>
+                        <p></p><a href="./files/Sincnet_based_Speaker_Recognition.pdf" target="_blank">Check Project
+                            Report</a></p>
+                        </p>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">September 2019 - January 2021</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">NYC Motor Verhicle Collisions</h3>
+                        <div class="subheading mb-3"> Final Project for EDAV (STAT W5702), Columbia University</div>
+                        <p>
+                        <ul>
+                            <li>Our analysis focuses on the impact of the Vision Zero program introduced by Mayor of New
+                                York, Bill de Blasio , in 2014. We analyse the overall trends in vehicular collision in
+                                the state of New York. By measuring the effect of policies made by the city’s
+                                administration, we aim to provide insights to substantiate future policy updates. We
+                                leverage the Motor Vehicle Collisions dataset provided by NYC Open Data for our
+                                analysis(https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95).
+                            </li>
+                            <li>This analysis investigates:
+
+                                Most frequent causes of accidents,
+                                Vehicle type involved in most crashes,
+                                Intersections that are most vulnerable to crashes,
+                                Increase in severity of crashes, etc.</li>
+                        </ul>
+                        <p><a href="https://github.com/Akshaypakhle10/NYC-Motor-Vehicle-Collisions"
+                                target="_blank">Check the Project on
+                                Github</a></p>
+                        <p></p><a href="http://www.columbia.edu/~avp2131/EDAV/index.html" target="_blank">Check Project
+                            Report</a></p>
                         </p>
                     </div>
                     <div class="resume-date text-md-right">
@@ -461,29 +467,26 @@
 
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Smart Signal- Adaptive Traffic Signal using Reinforcement Learning and Object
-                            Detection
+                        <h3 class="mb-0">Interactive Physiotherapy with Kinect 2.0
                         </h3>
                         <div class="subheading mb-3">University of Mumbai</div>
                         <p>
                         <ul>
                             <li>
-                                Developed a smart ATSC that uses object detection to sense the traffic at a signal, the
-                                reinforcement learning agent, which implemented the Q-learning technique, takes this
-                                data to predict optimal green signal timing.
+                                Facilitated the use of Microsoft Kinect 2.0, to sense limb movements of patients
+                                under-going physiotherapy, and designed games targeting specific elbow and wrist
+                                movementsfor physical rehabilitation.
                             </li>
                             <li>
-                                Recorded results showed that this method resulted in a 37% reduction in waiting times of
-                                cars at the traffic signal.
-                            </li>
-                            <li>
-                                This research has been selected to be published in a Spring approved journal.
+                                Recorded results showed that this method resulted in better interactivity in the
+                                recovery process and the average recovery time of the tested patients was quite
+                                impressive.
                             </li>
                         </ul>
                         <p><a href="https://github.com/neelgeek/SmartSignal" target="_blank">Check the Project on
                                 github</a></p>
-                        <p>
-                        </p>
+                        <p></p><a href="./files/Sem_8_Black_Book_Latex.pdf" target="_blank">Check Project
+                            Report</a></p>
                         </p>
                     </div>
                     <div class="resume-date text-md-right">
@@ -501,15 +504,20 @@
                         <p>
                         <ul>
                             <li>
-                                Developed a platform using Nodejs, Expressjs, Reactjs, MongoDB and Android Studio that
+                                Developed a dynamic truck/vehicle assignment algorithm to incoming orders on the
+                                platform which enabled
                                 enabled farmers to directly sell their goods to wholesale buyers in urban areas.
                             </li>
                             <li>
-                                The system also provided a logistic solution for the orders, thus reducing the end cost
-                                of commodities to the end consumer.
+                                It was a web-based solution to connect farmers directly with wholesalers at APMC
+                                Mar-kets, eliminating middlemen. Selected for the Finals of Smart India Hackathon 2018,
+                                amongst over 300 submissions.
                             </li>
                         </ul>
                         <p><a href="./files/SIH - FARMERS.pdf">Check out the project idea</a></p>
+                        </p>
+                        <p><a href="https://github.com/Akshaypakhle10/SIH-Python-Algorithm">Check out the project
+                                implementation on Github.</a></p>
                         </p>
                     </div>
                     <div class="resume-date text-md-right">
@@ -519,28 +527,26 @@
 
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Exam Monitoring System
+                        <h3 class="mb-0">Student Portal Web App.
                         </h3>
                         <div class="subheading mb-3">University of Mumbai</div>
                         <p>
                         <ul>
                             <li>
-                                Developed a Web application using PHP, Python and Javascript which generates Analytics
-                                from students’ exam results,using Clustering and Regression techniques,enabling teachers
-                                and students to make appropriate academic decisions and changes.
+                                This is a Django Based Web application for managing student activities online.
                             </li>
                             <li>
-                                The ML models were trained using the Scikit-learn package in Python,which was made
-                                available through REST API deployed using Flask.
+                                Its a portal for sharing various college related files and a hub for notices and
+                                important college related info.
                             </li>
                         </ul>
-                        <p><a href="https://github.com/neelgeek/Exam-Monitoring-System" target="_blank">Check the
+                        <p><a href="https://github.com/Akshaypakhle10/Student_Portal" target="_blank">Check the
                                 Project on github</a></p>
                         <p></p>
                         </p>
                     </div>
                     <div class="resume-date text-md-right">
-                        <span class="text-primary">October 2018 </span>
+                        <span class="text-primary">October 2018 - December 2018</span>
                     </div>
                 </div>
 
@@ -554,18 +560,18 @@
             <div class="my-auto">
                 <div class="subheading p-3 mb-3">Programming Languages &amp; Tools</div>
                 <ul class="list-inline dev-icons p-3">
-                    <li class="list-inline-item">
+                    <!-- <li class="list-inline-item">
                         <i class="fab fa-node-js"></i>
-                    </li>
+                    </li> -->
                     <li class="list-inline-item">
                         <i class="fab fa-python"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="devicon-java-plain"></i>
+                        <i class="devicon-docker-plain"></i>
                     </li>
 
                     <li class="list-inline-item">
-                        <i class="devicon-cplusplus-plain"></i>
+                        <i class="devicon-html5-plain"></i>
                     </li>
                     <li class="list-inline-item">
                         <i class="devicon-visualstudio-plain"></i>
@@ -597,7 +603,7 @@
 
 
 
-        <hr class="m-0">
+        <!-- <hr class="m-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
             <div class="my-auto">
@@ -612,7 +618,7 @@
                     right ?
                 </p>
             </div>
-        </section>
+        </section> -->
 
         <hr class="m-0">
 
@@ -621,19 +627,29 @@
                 <h2 class="mb-5">Awards &amp; Certifications</h2>
                 <ul class="fa-ul mb-0">
                     <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i> <a
+                            href="https://www.datascience.columbia.edu/scholars">Data Science Institute
+                            Scholars' Research Fellowship recipient, Columbia University</a></li>
+                    <li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i> <a
+                            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3275882">Best Research Paper
+                            Award, ICIRTE (Mumbai, 2017)</a></li>
+                    <li>
                         <i class="fa-li fa fa-trophy text-warning"></i> Microsoft Technology Associate for Security
-                        Fundamentals</li>
+                        Fundamentals Certification</li>
                     <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i> NIIT Certified in Core Programming in C,C++ &
-                        SQL</li>
-                    <li>
+
                         <i class="fa-li fa fa-trophy text-warning"></i> Smart India Hackathon 2018 Finalist</li>
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i> 1
                         <sup>st</sup> Most Innovative Idea in Techmate 2017</li>
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i> 1
-                        <sup>st</sup> Excellent Research Paper Award at WRFER Conference,Pune</li>
+                        <sup>st</sup> National Level Technical Paper Presentation, ITSA, RAIT</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>Recipient of Scholarship for Academic Excellence,
+                        by Rowan Companies.</li>
                 </ul>
             </div>
         </section>
